@@ -120,7 +120,7 @@
 
 ## Suara, alih suara dan terjemahan
 
-- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) - ★ 85.9k+ · AGPL-3.0 · 2026-10 — VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
+- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) - ★ 86k+ · AGPL-3.0 · 2026-10 — VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
 - [jianchang512/pyvideotrans](https://github.com/jianchang512/pyvideotrans) - ★ 19.5k+ · GPL-3.0 · 2026-10 — Translate the video from one language to another and embed dubbing & subtitles.
 - [Huanshere/VideoLingo](https://github.com/Huanshere/VideoLingo) - ★ 18.9k+ · Apache-2.0 · 2026-09 — Netflix-level subtitle cutting, translation, alignment, and even dubbing - one-click fully automated AI video subtitle team \| Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组.
 - [krillinai/OpenCreator](https://github.com/krillinai/OpenCreator) - ★ 13.9k+ · Apache-2.0 · 2026-10 — Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex. Video downloading, video translation, create videos, images, voice, avatars, and edits with Agents in one place. Suitable for your Social Media like YouTube, TikTok, Instagram, etc.
@@ -246,6 +246,8 @@ Setiap entri ialah repositori GitHub awam. Setiap minggu satu skrip membaca bint
 Repositori tidak disenaraikan bila ia diarkib, fork, tiada penerangan, kurang daripada 20 bintang atau tiada tolakan selama 365 hari. Bilangan bintang dibundarkan ke bawah kepada gandaan 10 terdekat. Penerangan ialah penerangan GitHub repositori itu sendiri.
 
 ## Bekerja dengan Sasa Teguh
+
+[![Bekerja dengan Sasa Teguh: tempah panggilan](https://raw.githubusercontent.com/sasateguh/.github/main/assets/work-with-sasa-teguh.png)](https://sasateguh.com/ms/book)
 
 Senarai ini diselenggara oleh [Sasa Teguh](https://sasateguh.com/ms), studio di Malaysia. Kami membina laman web yang ditemui di Google dan dalam jawapan AI, dan memasang sistem untuk perniagaan.
 

@@ -120,7 +120,7 @@
 
 ## Voice, dubbing and translation
 
-- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) - ★ 85.9k+ · AGPL-3.0 · 2026-10 — VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
+- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) - ★ 86k+ · AGPL-3.0 · 2026-10 — VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
 - [jianchang512/pyvideotrans](https://github.com/jianchang512/pyvideotrans) - ★ 19.5k+ · GPL-3.0 · 2026-10 — Translate the video from one language to another and embed dubbing & subtitles.
 - [Huanshere/VideoLingo](https://github.com/Huanshere/VideoLingo) - ★ 18.9k+ · Apache-2.0 · 2026-09 — Netflix-level subtitle cutting, translation, alignment, and even dubbing - one-click fully automated AI video subtitle team \| Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组.
 - [krillinai/OpenCreator](https://github.com/krillinai/OpenCreator) - ★ 13.9k+ · Apache-2.0 · 2026-10 — Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex. Video downloading, video translation, create videos, images, voice, avatars, and edits with Agents in one place. Suitable for your Social Media like YouTube, TikTok, Instagram, etc.
@@ -246,6 +246,8 @@ Every entry is a public GitHub repository. Each week a script reads its stars, l
 A repository is left out when it is archived, a fork, has no description, has fewer than 20 stars or has not been pushed for 365 days. Star counts are rounded down to the nearest 10. Descriptions are the repositories' own GitHub descriptions.
 
 ## Work with Sasa Teguh
+
+[![Work with Sasa Teguh: book a call](https://raw.githubusercontent.com/sasateguh/.github/main/assets/work-with-sasa-teguh.png)](https://sasateguh.com/book)
 
 This list is maintained by [Sasa Teguh](https://sasateguh.com), a studio in Malaysia. We build websites that are found on Google and in AI answers, and we set up systems for businesses.
 
