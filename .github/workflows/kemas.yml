@@ -1,0 +1,38 @@
+# Kemas mingguan repo senarai (gilap D30/D31, PELAN-senarai-niche §2.3). Disalin ke .github/workflows/kemas.yml repo
+# senarai oleh `gilap senarai bina --kering`; `gilap semak` memberi ⚠ bila salinan hanyut dari fail ini.
+# Komit HANYA bila README/contributing berubah (tiada komit kosong), oleh github-actions[bot] — bukan graf sesiapa.
+name: kemas
+
+on:
+  schedule:
+    - cron: "41 2 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kemas
+  cancel-in-progress: false
+
+jobs:
+  kemas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Build from GitHub data
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 senarai.py bina --config senarai.toml --templat templat.toml --keluar .
+      - name: Commit only when changed
+        run: |
+          if [ -z "$(git status --porcelain -- README.md README.ms.md contributing.md)" ]; then
+            echo "no change"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md README.ms.md contributing.md
+          git commit -m "Update facts from the GitHub API"
+          git push

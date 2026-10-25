@@ -1,0 +1,1352 @@
+# Senarai video AI untuk pencipta (DRAF fork 25 Okt 2026 — teks EN/BM = teks awam: DRAF sehingga pemilik meluluskan).
+# Kurasi: entri = alat yang pencipta/pembangun boleh PAKAI untuk menyunting atau menghasilkan video pendek. Model
+# penyelidikan tulen (repo kertas), senarai awesome lain, fork, penerangan bukan Latin dan repo promosi SaaS tanpa kod
+# = `kecuali` (supaya `cari` tidak mencadangkannya semula).
+id = "video"
+repo = "sasateguh/awesome-ai-video-for-creators"
+bundar_bintang = 10
+buang_fork = true
+# Calon `cari` yang ditolak semasa kurasi (padanan carian tidak berkaitan, ASR umum, penyunting bukan AI, penerangan bukan
+# Latin, prompt sahaja, pendua, risiko deepfake, sub-repo dokumentasi). Peraturan bahasa: penerangan mesti BERMULA dengan
+# ayat Latin yang lengkap — dwibahasa EN-dahulu (cth "… | 中文") diterima; yang bermula dengan bukan-Latin ditolak.
+kecuali = [
+  "1Remote/1Remote",
+  "869413421/ai-moive-studio",
+  "Abhijit-Jha/youclipper",
+  "AcademySoftwareFoundation/OpenTimelineIO",
+  "adityaarsharma/youtube-marketing-skills",
+  "adityayaduvanshi/awwwards-website-1",
+  "agan-j/xiaoniu",
+  "Agions/dramaxis",
+  "aidayang/VideoLingo-OneClick",
+  "aiiu-lab/MeDM",
+  "Ajatt-Tools/mpvacious",
+  "alecm20/story-flicks",
+  "alecs5am/ralphy",
+  "ali-vilab/VACE",
+  "AliRash3ed/VUZA-Free-AI-Video-Creator-and-Pinterest-Video-Scraper",
+  "allvoicelab/AllVoiceLab-MCP",
+  "alperefesahin/flutter_video_feed",
+  "alyssaxuu/motionity",
+  "Andrews54757/FastStream",
+  "angular-rust/ux-animate",
+  "anonfaded/FadCam",
+  "ansible/ansible",
+  "antonio-orionus/Arroxy",
+  "apocas/dockerode",
+  "appleboy/ssh-action",
+  "Appllama/25-unique-loaders",
+  "Arabianaischool/AI-Video-Gen-by-ARABIAN-AI-SCHOOL",
+  "Arduino-IRremote/Arduino-IRremote",
+  "Astroa7m/Reels",
+  "astrogab42/XwbAudioReplacer",
+  "athemeroy/awesome-claude-5-5-videos",
+  "ausaki/subfinder",
+  "Avnsh1111/Instagram-Reels-Scraper-Auto-Poster",
+  "Azure12355/weilanx-claude-videos",
+  "backblaze-labs/awesome-video-generation",
+  "bilibili/carocut",
+  "BlommeJan/Manim-Motion",
+  "bman46/InstagramEmbedDiscordBot",
+  "bquenin/interpreter",
+  "BretHudson/animation-practice",
+  "BTawaifi/Audio-DeSilencer",
+  "bugbakery/audapolis",
+  "buxuku/SmartSub",
+  "bytedance/Bernini",
+  "cameronking4/soundbite",
+  "Carasibana/ComfyUI-H3-FaceRefine",
+  "CCExtractor/ccextractor",
+  "cclank/lanshu-awesome-ai-video-kit",
+  "cdown/srt",
+  "chengyi-ai/native-subtitle-quote-image",
+  "ChenHsing/Awesome-Video-Diffusion-Models",
+  "ChenShuo2004/cs-board",
+  "ChenyangQiQi/FateZero",
+  "chidiwilliams/buzz",
+  "code-charity/youtube",
+  "collidingScopes/liquid-shape-distortions",
+  "corvo007/MioSub",
+  "cyberlesterr/paper-collage-video",
+  "dduongtrandai/LA-Studio",
+  "DeeepMaker/subtitle-to-audio",
+  "denizsafak/abogen",
+  "developers-cosmos/Mimasa",
+  "diezo/Ensta",
+  "dlazy-ai/ai-product-video",
+  "Doubiiu/MotionCanvas",
+  "DualSubs/Universal",
+  "duongxthanh/facebook-reels-downloader",
+  "emericg/OpenSubtitlesDownload",
+  "engineerapart/TheRemoteFreelancer",
+  "erduo1998-cell/erduo-broll-loop-engineering",
+  "eternityspring/reelbench-skills",
+  "EveningStudy/asmr-dubber",
+  "Evolink-AI/GPT-Image-2-Seedance-2.5-Workflow",
+  "eykicuihb/KuroBlob-AI",
+  "fabric/fabric",
+  "feitangyuan/motion-web",
+  "feitangyuan/onetake",
+  "Finderchangchang/brewreel",
+  "firerpa/lamda",
+  "firezone/firezone",
+  "Flagsmith/flagsmith",
+  "fly7632785/basketball-highlight-editor",
+  "FreeRDP/FreeRDP",
+  "FrostLawyerNode/filmora-video",
+  "getopenscreen/openscreen",
+  "gielcobben/caption",
+  "gijsdev/ublock-hide-yt-shorts",
+  "GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese",
+  "Gitruck/cli",
+  "glanderness/BeefTV",
+  "GML-MMGroup/ClipTalk",
+  "google/grr",
+  "google/ios-webkit-debug-proxy",
+  "guanmo-ai/awesome-ai-motion",
+  "GuanYixuan/pyJianYingDraft",
+  "guerrillacontra/html5-es6-physics-rope",
+  "gzxx-2025/aid-studio",
+  "harry0703/MoneyPrinterTurbo",
+  "hauxir/rapidbay",
+  "HBAI-Ltd/Toonflow-app",
+  "heygen-com/heygen-cli",
+  "hhenrichsen/motion-canvas-commons",
+  "hhenrichsen/motion-canvas-component-library-template",
+  "HiMeditator/auto-caption",
+  "hiteshsuthar01/OK-",
+  "hkchengrex/Tracking-Anything-with-DEVA",
+  "HKUDS/VideoAgent",
+  "HuolalaTech/page-spy-web",
+  "hypit-ai/hypit",
+  "idosal/git-mcp",
+  "IliasHad/edit-mind",
+  "ilya-makarov-dev/Reframe",
+  "immense/Remotely",
+  "irinabuht12-oss/google-ads-meta-ads-mcp",
+  "isaacbernat/netflix-to-srt",
+  "jacklandrin/OnlySwitch",
+  "jacky-xbb/faceless-video-api",
+  "jdepoix/youtube-transcript-api",
+  "jianfch/stable-ts",
+  "jirotubuyaki/FlowerJS",
+  "jnMetaCode/ai-shortfilm-prompts",
+  "Joensw/Reddit-Shorts-Bot",
+  "joeseesun/opus-video-prompts",
+  "joinloops/loops-server",
+  "JollyToday/GhostCut_Remake_Video",
+  "jpillora/cloud-torrent",
+  "jub0t/Concat",
+  "JuneYaooo/cheap-claude-video",
+  "juntaosun/ComeCut",
+  "Just-Moh-it/Mockoops",
+  "kaganin/iwrzwr-visual-archive",
+  "kaomei/hand-drawn-video-prompts",
+  "karma9874/AndroRAT",
+  "kartikeyvaish/expo-instagram-reels",
+  "KishanViramgama/InstagramDownloader",
+  "KlingAIResearch/LivePortrait",
+  "koesan/Evoars",
+  "KonstantinKai/reelkit",
+  "kunkundi/crossdesk",
+  "laoma528/awesome-zhuiju-free",
+  "LearnPrompt/awesome-seedance",
+  "Leonxlnx/motion-recreation",
+  "lettier/gifcurry",
+  "libass/libass",
+  "liyue-aigc/seedance-2-5-video-director",
+  "liyupi/ai-promo-video-maker",
+  "lsyncd/lsyncd",
+  "lukasz-madon/awesome-remote-job",
+  "m-bain/whisperX",
+  "matthew-asuncion/Fast-YouTube-to-MP3-Converter-API",
+  "menyifang/MIMO",
+  "michaelkolesidis/cherry-charm",
+  "microsoft/garnet",
+  "mifi/lossless-cut",
+  "mockoon/mockoon",
+  "motion-canvas-community/awesome-motion-canvas",
+  "motion-canvas/examples",
+  "motion-canvas/exporters",
+  "motion-canvas/motion-canvas.github.io",
+  "mozilla/sccache",
+  "Mr-Comand/youtube-shorts-remover-tampermonkey",
+  "mRemoteNG/mRemoteNG",
+  "NanmiCoder/cc-haha",
+  "NarratorAI-Studio/narrator-ai-cli",
+  "NarratorAI-Studio/narrator-ai-cli-skill",
+  "naveen-annam/creativly.ai-brand-video-remotion",
+  "navidseyedain/ALAD",
+  "navidshad/frameflow",
+  "Netflix/Hystrix",
+  "Netflix/ribbon",
+  "NGsHjodra/motion_canvas_projects",
+  "NomaDamas/CozyClay",
+  "nutllwhy/ai-selling-video",
+  "ohhsodead/FileMasta",
+  "oil-oil/oil-motion",
+  "omerbt/TokenFlow",
+  "omnichar/OmniChar",
+  "opc8838-hub/font-animation",
+  "openai/whisper",
+  "openclaw/Peekaboo",
+  "OpenMOSS/MOSS-Transcribe-Diarize",
+  "OpenShot/libopenshot",
+  "OpenShot/openshot-qt",
+  "OpenTalker/video-retalking",
+  "OSideMedia/higgsfield-ai-prompt-skill",
+  "pengchengneo/AgentCine",
+  "pengchujin/jzsub",
+  "pengchujin/livecanvas",
+  "pgrimaud/instagram-user-feed",
+  "Picsart-AI-Research/Text2Video-Zero",
+  "plemeri/transparent-background",
+  "podman-container-tools/skopeo",
+  "psviderski/unregistry",
+  "ptjaworski/igplus-extension",
+  "Purfview/IMDb-Scout-Mod",
+  "Purfview/whisper-standalone-win",
+  "qwqcode/SubRenamer",
+  "Rabornkraken/browser2api",
+  "ramtinak/InstagramApiSharp",
+  "raojiacui/prompt-lens",
+  "rbayuokt/expo-infinite-media",
+  "ReallyGood/js-motion-detection",
+  "rediumvex/ai-video-generator-claude",
+  "rediumvex/social-media-caption-generator-claude",
+  "remote-android/redroid-doc",
+  "remoteintech/remote-jobs",
+  "remotion-dev/github-unwrapped",
+  "remotion-dev/github-unwrapped-2022",
+  "remotion-dev/trailer",
+  "rodrigogama/awwwards-rebuilt-furrow",
+  "rustdesk/rustdesk",
+  "ryan-bergio03h1/Instagram-View-Booster-Free-Reel-Story-Views-Tool-2026",
+  "SamurAIGPT/Seedance-2.5-API",
+  "sanusanth/c-basic-programs",
+  "sasharun/awesome-faceless",
+  "scraed/LanPaint",
+  "Sedlacek-Solutions/SwiftUI-Stories",
+  "select2/select2",
+  "sergebulaev/instagram-skills",
+  "sergebulaev/youtube-skills",
+  "showlab/Awesome-Video-Diffusion",
+  "showlab/WorldWander",
+  "shuyu-labs/BigBanana-AI-Director",
+  "SnapGenAI/Veo3-AI-Video-API",
+  "sonalmaniya/react-native-reels",
+  "sorsama/wabcut",
+  "square/PonyDebugger",
+  "stablyai/orca",
+  "storytold/filmcraft",
+  "sveinbjornt/hear",
+  "taisly/agent",
+  "telepresenceio/telepresence",
+  "Tencent-Hunyuan/HunyuanCustom",
+  "thephpleague/flysystem",
+  "thiagobergami/yt-shoorts-automation",
+  "Translate-It-App/Translate-It",
+  "trustfuture/simon-skills",
+  "UditAkhourii/cdaf",
+  "Upload-Post/avatar-mix",
+  "v-modal/vmodal_sdk_flutter",
+  "VishwaiOSDev/Loadify-iOS",
+  "vizance/codex-talking-head-video-editor",
+  "Vulpelo/hide-youtube-shorts",
+  "vyralcontent/content-skills",
+  "walterlow/freecut",
+  "wassermanproductions/wassermans-filmmaker-suite",
+  "weibocom/motan",
+  "wenhaochai/StableVideo",
+  "westvictorfall/flowframes-lab",
+  "WhiteTowerAI/ohmygame",
+  "wladradchenko/wunjo.wladradchenko.ru",
+  "xiesx123/CreatorBox",
+  "xixihhhh/ai-short-drama-skill",
+  "xixihhhh/clipforge",
+  "xixihhhh/hotclip",
+  "xuanyustudio/LocalMiniDrama",
+  "yanirs/established-remote",
+  "YaoFANGUK/video-subtitle-extractor",
+  "YaoFANGUK/video-subtitle-remover",
+  "yi1108/printfilm",
+  "yihui-dev/awesome-opus5-5-videos",
+  "Ylianst/MeshCentral",
+  "ynshung/better-yt-shorts",
+  "YouG-o/YouTube-No-Translation",
+  "YouMind-OpenLab/awesome-seedance-2-prompts",
+  "Youngcooper626/Descript-Edit-AI-Transcriptor",
+  "yuxino/Mimi",
+  "zackees/transcribe-anything",
+  "zenstory-ai/drama-skills",
+  "zenstory-ai/video-recap-skills",
+  "zevnda/hide-youtube-shorts",
+  "zhouxiaoka/autoclip",
+  "zhuyansen/awesome-claude-video-skills",
+  "zpix1/yt-anti-translate",
+]
+
+[en]
+tajuk = "Awesome AI Video for Creators"
+pembuka = "Open-source tools that edit and produce short videos with AI: captions, clipping, silence removal, reframing, dubbing and programmatic video. Ranked by stars and recent activity, refreshed every week."
+
+[ms]
+tajuk = "Senarai Berpangkat Video AI Pencipta Kandungan"
+pembuka = "Alat sumber terbuka yang menyunting dan menghasilkan video pendek dengan AI: sari kata, potongan klip, buang senyap, bingkai semula, alih suara dan video berprogram. Dipangkat ikut bintang dan aktiviti terkini, dikemas setiap minggu."
+
+[github]
+# Deskripsi + topik (DRAF, perlu kelulusan pemilik). Topik: `gilap topik --wajib awesome,awesome-list` 25 Okt + pertimbangan
+# makna: whisper (pembaca ASR/mesyuarat), motion-graphics (alat reka bentuk) dan creator-tools (bercampur) ditolak walaupun ramai.
+penerangan = "Ranked, weekly-updated list of open-source AI tools that edit and produce short videos: captions, clipping, silence removal, dubbing and programmatic video."
+topik = ["awesome", "awesome-list", "video-editing", "ai-video", "subtitles", "tiktok", "content-creation", "video-editor", "remotion", "youtube-shorts", "reels", "dubbing"]
+
+[pangkat]
+bintang = 1.0
+aktif = 1.0
+
+[ambang]
+bintang_min = 20
+hari_tidak_aktif = 365
+
+[cari]
+had = 50
+pertanyaan = [
+  'auto subtitles video whisper',
+  'burn captions video ai',
+  'shorts clips long video ai',
+  'video highlights clips reels',
+  'remove silence video',
+  'jump cut video automatic',
+  'talking head video editor',
+  'b-roll video ai',
+  'ai dubbing video',
+  'video translation voice clone lip sync',
+  'remotion',
+  'motion canvas',
+  'programmatic video generation',
+  'vertical video reframe 9:16',
+  'auto reframe face tracking crop',
+  'text to video youtube shorts generator',
+  'faceless video generator',
+  'ai video editor open source',
+  'topic:video-editing',
+  'topic:ai-video',
+  'topic:ai-video-editor',
+  'topic:remotion',
+  'topic:subtitles',
+  'topic:dubbing',
+  'topic:video-translation',
+  'topic:youtube-shorts',
+  'topic:reels',
+  'topic:video-clipping',
+  'topic:faceless-video',
+  'topic:silence-removal',
+  'topic:programmatic-video',
+]
+
+[[kategori]]
+id = "sari-kata"
+en = "Captions and subtitles"
+ms = "Sari kata"
+
+[[kategori]]
+id = "klip"
+en = "Clipping and shorts"
+ms = "Potongan klip dan video pendek"
+
+[[kategori]]
+id = "automasi"
+en = "Editing automation"
+ms = "Automasi suntingan"
+
+[[kategori]]
+id = "bingkai"
+en = "Reframing"
+ms = "Bingkai semula"
+
+[[kategori]]
+id = "suara"
+en = "Voice, dubbing and translation"
+ms = "Suara, alih suara dan terjemahan"
+
+[[kategori]]
+id = "berprogram"
+en = "Programmatic video"
+ms = "Video berprogram"
+
+[[kategori]]
+id = "jana"
+en = "Video generation pipelines"
+ms = "Saluran penjanaan video"
+
+[[entri]]
+repo = "SubtitleEdit/subtitleedit"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "smacke/ffsubsync"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "m1guelpf/auto-subtitle"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "Eyevinn/auto-subtitles"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "jason-jm/wavesubs"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "Serkali-sudo/auto-subtitle-generator"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "BatuhanYilmaz26/Auto-Subtitled-Video-Generator"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "JorianWoltjer/AutoCaptions"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "lernEarnBurn/TikTok-Caption-Generator"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "Anil-matcha/AI-Youtube-Shorts-Generator"
+kategori = "klip"
+
+[[entri]]
+repo = "artbyjazi/autoclip"
+kategori = "klip"
+
+[[entri]]
+repo = "NaufalRizqullah/opensource-clipping"
+kategori = "klip"
+
+[[entri]]
+repo = "tryvinci/vinci-clips"
+kategori = "klip"
+
+[[entri]]
+repo = "fralapo/clippyme"
+kategori = "klip"
+
+[[entri]]
+repo = "oktaydbk54/vibeclip"
+kategori = "klip"
+
+[[entri]]
+repo = "outhsics/openfang-auto-clip"
+kategori = "klip"
+
+[[entri]]
+repo = "JeremySNR/cutawan"
+kategori = "klip"
+
+[[entri]]
+repo = "Anil-matcha/ai-clipping-comfyui"
+kategori = "klip"
+
+[[entri]]
+repo = "eddieoz/reels-clips-automator"
+kategori = "klip"
+
+[[entri]]
+repo = "BlueBash/Autogen_Video_Refinement"
+kategori = "klip"
+
+[[entri]]
+repo = "WyattBlue/auto-editor"
+kategori = "automasi"
+
+[[entri]]
+repo = "htekdev/vidpipe"
+kategori = "automasi"
+
+[[entri]]
+repo = "0xsline/OpenChatCut"
+kategori = "automasi"
+
+[[entri]]
+repo = "JimLiu/baocut"
+kategori = "automasi"
+
+[[entri]]
+repo = "MartinDelophy/ai-video-editor"
+kategori = "automasi"
+
+[[entri]]
+repo = "cartesiancs/cartcut"
+kategori = "automasi"
+
+[[entri]]
+repo = "openfilm/openfilm"
+kategori = "automasi"
+
+[[entri]]
+repo = "DataAnts-AI/CutScript"
+kategori = "automasi"
+
+[[entri]]
+repo = "WeftCut/WeftCut"
+kategori = "automasi"
+
+[[entri]]
+repo = "mrbuslov/capcut-ai-editor"
+kategori = "automasi"
+
+[[entri]]
+repo = "nextwork-projects/ai-video-editor-cooked"
+kategori = "automasi"
+
+[[entri]]
+repo = "riecodes/free247editor"
+kategori = "automasi"
+
+[[entri]]
+repo = "louisedesadeleer/cut-video"
+kategori = "automasi"
+
+[[entri]]
+repo = "kurbaitaev/ghost-editor"
+kategori = "automasi"
+
+[[entri]]
+repo = "cobanov/autocut"
+kategori = "automasi"
+
+[[entri]]
+repo = "mfahsold/montage-ai"
+kategori = "automasi"
+
+[[entri]]
+repo = "medhachim/CapRocket"
+kategori = "automasi"
+
+[[entri]]
+repo = "appergb/OpenTake"
+kategori = "automasi"
+
+[[entri]]
+repo = "bazodev/open-vids"
+kategori = "automasi"
+
+[[entri]]
+repo = "debarch777/AI-Video-Editor"
+kategori = "automasi"
+
+[[entri]]
+repo = "andriidrok1/autobroll"
+kategori = "automasi"
+
+[[entri]]
+repo = "EverythingAI-Pro/ai-video-editor"
+kategori = "automasi"
+
+[[entri]]
+repo = "yudgunH/XinChao-Cut"
+kategori = "automasi"
+
+[[entri]]
+repo = "sahandghavidel/ai-video-editor"
+kategori = "automasi"
+
+[[entri]]
+repo = "petergyang/video-short"
+kategori = "automasi"
+
+[[entri]]
+repo = "excitoon/video-remove-silence"
+kategori = "automasi"
+
+[[entri]]
+repo = "bambax/Remsi"
+kategori = "automasi"
+
+[[entri]]
+repo = "emkademy/jumpcutter"
+kategori = "automasi"
+
+[[entri]]
+repo = "SuboptimalEng/atomic-edits"
+kategori = "automasi"
+
+[[entri]]
+repo = "lucaslattari/Video-Silence-Remover"
+kategori = "automasi"
+
+[[entri]]
+repo = "aregrid/frame"
+kategori = "automasi"
+
+[[entri]]
+repo = "sasoder/stockpile"
+kategori = "automasi"
+
+[[entri]]
+repo = "KazKozDev/auto-vertical-reframe"
+kategori = "bingkai"
+
+[[entri]]
+repo = "Magerko/ReelsMaker-Pro"
+kategori = "bingkai"
+
+[[entri]]
+repo = "nopefallacy/vertical-video-editing-skills"
+kategori = "bingkai"
+
+[[entri]]
+repo = "jianchang512/pyvideotrans"
+kategori = "suara"
+
+[[entri]]
+repo = "Huanshere/VideoLingo"
+kategori = "suara"
+
+[[entri]]
+repo = "krillinai/OpenCreator"
+kategori = "suara"
+
+[[entri]]
+repo = "liuzhao1225/YouDub-webui"
+kategori = "suara"
+
+[[entri]]
+repo = "ThioJoe/Auto-Synced-Translated-Dubs"
+kategori = "suara"
+
+[[entri]]
+repo = "notepower2k1/CapCap"
+kategori = "suara"
+
+[[entri]]
+repo = "heyncth/youtube-auto-dub"
+kategori = "suara"
+
+[[entri]]
+repo = "timoncool/dub-studio"
+kategori = "suara"
+
+[[entri]]
+repo = "DubbieHQ/dubbie"
+kategori = "suara"
+
+[[entri]]
+repo = "MachHongHai/HaizFlow"
+kategori = "suara"
+
+[[entri]]
+repo = "medahmedkrichen/ViDubb"
+kategori = "suara"
+
+[[entri]]
+repo = "ananta-sj/ReFlow-Studio"
+kategori = "suara"
+
+[[entri]]
+repo = "zast57/ZastTranslate"
+kategori = "suara"
+
+[[entri]]
+repo = "langswap-app/langswap"
+kategori = "suara"
+
+[[entri]]
+repo = "overcrash66/video-translator"
+kategori = "suara"
+
+[[entri]]
+repo = "stronghamjji/PersoDub"
+kategori = "suara"
+
+[[entri]]
+repo = "perso-ai/perso-dubbing-plugin"
+kategori = "suara"
+
+[[entri]]
+repo = "tachikomared/tachidubb"
+kategori = "suara"
+
+[[entri]]
+repo = "Globluez/bluez-dubbing"
+kategori = "suara"
+
+[[entri]]
+repo = "lukaszliniewicz/Subdub"
+kategori = "suara"
+
+[[entri]]
+repo = "Mikk0git/youtube-auto-dubbing"
+kategori = "suara"
+
+[[entri]]
+repo = "johunsang/kekedubing"
+kategori = "suara"
+
+[[entri]]
+repo = "debpalash/VoiceStudio"
+kategori = "suara"
+
+[[entri]]
+repo = "HallowSiddharth/VoiceCraftAI"
+kategori = "suara"
+
+[[entri]]
+repo = "mfranzon/dubbing-ai"
+kategori = "suara"
+
+[[entri]]
+repo = "remotion-dev/remotion"
+kategori = "berprogram"
+
+[[entri]]
+repo = "motion-canvas/motion-canvas"
+kategori = "berprogram"
+
+[[entri]]
+repo = "Zulko/moviepy"
+kategori = "berprogram"
+
+[[entri]]
+repo = "midrender/revideo"
+kategori = "berprogram"
+
+[[entri]]
+repo = "diffusionstudio/core"
+kategori = "berprogram"
+
+[[entri]]
+repo = "thecodacus/rendiv"
+kategori = "berprogram"
+
+[[entri]]
+repo = "imserhatdemir/ft-motion"
+kategori = "berprogram"
+
+[[entri]]
+repo = "haidrrrry/claude-remotion-skill"
+kategori = "berprogram"
+
+[[entri]]
+repo = "Sunwood-ai-labs/hyperframes-motion-reel-skill"
+kategori = "berprogram"
+
+[[entri]]
+repo = "zz41354899/mografy"
+kategori = "berprogram"
+
+[[entri]]
+repo = "amasin76/code-motion"
+kategori = "berprogram"
+
+[[entri]]
+repo = "calesthio/OpenMontage"
+kategori = "jana"
+
+[[entri]]
+repo = "RayVentura/ShortGPT"
+kategori = "jana"
+
+[[entri]]
+repo = "FujiwaraChoki/MoneyPrinter"
+kategori = "jana"
+
+[[entri]]
+repo = "gyoridavid/short-video-maker"
+kategori = "jana"
+
+[[entri]]
+repo = "kaomei/stickman-video-director"
+kategori = "jana"
+
+[[entri]]
+repo = "Vincentwei1021/anything2explainer"
+kategori = "jana"
+
+[[entri]]
+repo = "Vincentwei1021/video-shotcraft"
+kategori = "jana"
+
+[[entri]]
+repo = "IgorShadurin/app.yumcut.com"
+kategori = "jana"
+
+[[entri]]
+repo = "SamurAIGPT/AI-Faceless-Video-Generator"
+kategori = "jana"
+
+[[entri]]
+repo = "itsjwill/vanta"
+kategori = "jana"
+
+[[entri]]
+repo = "itsPremkumar/Automated-Video-Generator"
+kategori = "jana"
+
+[[entri]]
+repo = "feyzilim/clipfactory"
+kategori = "jana"
+
+[[entri]]
+repo = "jacky-xbb/faceless-video-generator"
+kategori = "jana"
+
+[[entri]]
+repo = "SaarD00/AI-Youtube-Shorts-Generator"
+kategori = "jana"
+
+[[entri]]
+repo = "Chamanrajragu/purffle-shorts"
+kategori = "jana"
+
+[[entri]]
+repo = "Auto-Vio/autovio"
+kategori = "jana"
+
+[[entri]]
+repo = "codewithdark-git/Faceless-short"
+kategori = "jana"
+
+[[entri]]
+repo = "DarmorGamz/Youtube-Shorts-Generator"
+kategori = "jana"
+
+[[entri]]
+repo = "Bomx/super-video-maker-skill"
+kategori = "jana"
+
+[[entri]]
+repo = "LudwigKienle/ai-video-production-editor"
+kategori = "jana"
+
+[[entri]]
+repo = "TheMattBerman/scrollclaw"
+kategori = "jana"
+
+[[entri]]
+repo = "ffroliva/gflow-cli"
+kategori = "jana"
+
+[[entri]]
+repo = "spacesimeco-hue/Chain-Motion-AI-Video-Editor"
+kategori = "jana"
+
+[[entri]]
+repo = "EGSECDA/vocaloid-style-mv-pipeline"
+kategori = "jana"
+
+[[entri]]
+repo = "tmoroney/auto-subs"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "absadiki/subsai"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "pluja/whishper"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "denizsafak/AutoSubSync"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "rockbenben/subtitle-translator"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "Blue-B/WhisperSubTranslate"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "nicolaigaina/ai-video-captions"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "remotion-dev/template-tiktok"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "m1guelpf/yt-whisper"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "modelscope/FunClip"
+kategori = "klip"
+
+[[entri]]
+repo = "jipraks/yt-short-clipper"
+kategori = "klip"
+
+[[entri]]
+repo = "RafaelGodoyEbert/ViralCutter"
+kategori = "klip"
+
+[[entri]]
+repo = "mutonby/shortcast"
+kategori = "klip"
+
+[[entri]]
+repo = "SamurAIGPT/Clip-Anything"
+kategori = "klip"
+
+[[entri]]
+repo = "ayush-that/jiang-clips"
+kategori = "klip"
+
+[[entri]]
+repo = "divyaprakash0426/autoshorts"
+kategori = "klip"
+
+[[entri]]
+repo = "ColinGPT9/clips-studio"
+kategori = "klip"
+
+[[entri]]
+repo = "shreesha345/AI-short-creator"
+kategori = "klip"
+
+[[entri]]
+repo = "mehbul/chopify"
+kategori = "klip"
+
+[[entri]]
+repo = "MinightDev/Autoshorts"
+kategori = "klip"
+
+[[entri]]
+repo = "VadlapatiKarthik/autoclipper"
+kategori = "klip"
+
+[[entri]]
+repo = "krakonjac300-pixel/podcast-shorts-factory"
+kategori = "klip"
+
+[[entri]]
+repo = "openclaw-easy/ViralMint"
+kategori = "klip"
+
+[[entri]]
+repo = "SamurAIGPT/ai-clipping-generator"
+kategori = "klip"
+
+[[entri]]
+repo = "zackees/ytclip"
+kategori = "klip"
+
+[[entri]]
+repo = "palmier-io/palmier-pro"
+kategori = "automasi"
+
+[[entri]]
+repo = "FireRedTeam/FireRed-OpenStoryline"
+kategori = "automasi"
+
+[[entri]]
+repo = "trykimu/videoeditor"
+kategori = "automasi"
+
+[[entri]]
+repo = "kajisho5/ffmpeg-skill"
+kategori = "automasi"
+
+[[entri]]
+repo = "nateherkai/herk-edit-kit"
+kategori = "automasi"
+
+[[entri]]
+repo = "veedstudio/open-edit"
+kategori = "automasi"
+
+[[entri]]
+repo = "pireel/pireel"
+kategori = "automasi"
+
+[[entri]]
+repo = "ronak-create/FableCut"
+kategori = "automasi"
+
+[[entri]]
+repo = "VelornLabs/velorn"
+kategori = "automasi"
+
+[[entri]]
+repo = "appariciojunior/video-editor-skills"
+kategori = "automasi"
+
+[[entri]]
+repo = "hassancs91/claude-youtube-editor"
+kategori = "automasi"
+
+[[entri]]
+repo = "Hainrixz/editor-pro-max"
+kategori = "automasi"
+
+[[entri]]
+repo = "Remocn/remocn-studio"
+kategori = "automasi"
+
+[[entri]]
+repo = "pifferologo/ai-agent-video-editor"
+kategori = "automasi"
+
+[[entri]]
+repo = "Monet-AI-Editor/Monet"
+kategori = "automasi"
+
+[[entri]]
+repo = "ranahaani/i-hate-editing"
+kategori = "automasi"
+
+[[entri]]
+repo = "Merserk/BeatSync-Engine"
+kategori = "automasi"
+
+[[entri]]
+repo = "mazsola2k/ai-video-editor"
+kategori = "automasi"
+
+[[entri]]
+repo = "6missedcalls/video-editing-skill"
+kategori = "automasi"
+
+[[entri]]
+repo = "marvtub/takes-public"
+kategori = "automasi"
+
+[[entri]]
+repo = "leeyc09/Silence-Cutter"
+kategori = "automasi"
+
+[[entri]]
+repo = "whyaang/Bowdler"
+kategori = "automasi"
+
+[[entri]]
+repo = "jianshuo/claude-skills"
+kategori = "automasi"
+
+[[entri]]
+repo = "video-db/Director"
+kategori = "automasi"
+
+[[entri]]
+repo = "nadermx/backgroundremover"
+kategori = "automasi"
+
+[[entri]]
+repo = "pycodebr/heditor"
+kategori = "bingkai"
+
+[[entri]]
+repo = "pj8912/merge-for-shorts"
+kategori = "bingkai"
+
+[[entri]]
+repo = "abus-aikorea/voice-pro"
+kategori = "suara"
+
+[[entri]]
+repo = "R3gm/SoniTranslate"
+kategori = "suara"
+
+[[entri]]
+repo = "shang-zhu/violin"
+kategori = "suara"
+
+[[entri]]
+repo = "lukaszliniewicz/Pandrator"
+kategori = "suara"
+
+[[entri]]
+repo = "Softcatala/open-dubbing"
+kategori = "suara"
+
+[[entri]]
+repo = "FlorianEagox/WeeaBlind"
+kategori = "suara"
+
+[[entri]]
+repo = "liuzhao1225/YouDub"
+kategori = "suara"
+
+[[entri]]
+repo = "JollyToday/GhostCut-auto_video_translation"
+kategori = "suara"
+
+[[entri]]
+repo = "swax/dub-anything"
+kategori = "suara"
+
+[[entri]]
+repo = "msmahdinejad/avorythm"
+kategori = "suara"
+
+[[entri]]
+repo = "xmrius/dubstage"
+kategori = "suara"
+
+[[entri]]
+repo = "am-sokolov/videodubber"
+kategori = "suara"
+
+[[entri]]
+repo = "nexu-io/html-video"
+kategori = "berprogram"
+
+[[entri]]
+repo = "dmtrKovalenko/fframes"
+kategori = "berprogram"
+
+[[entri]]
+repo = "Remocn/remocn"
+kategori = "berprogram"
+
+[[entri]]
+repo = "shadcn-labs/snapcn"
+kategori = "berprogram"
+
+[[entri]]
+repo = "av/remotion-bits"
+kategori = "berprogram"
+
+[[entri]]
+repo = "ybouane/VideoFlow"
+kategori = "berprogram"
+
+[[entri]]
+repo = "BintzGavin/helios"
+kategori = "berprogram"
+
+[[entri]]
+repo = "0xS4N4TG/kinetograph"
+kategori = "berprogram"
+
+[[entri]]
+repo = "ChaosRealmsAI/NextFrame"
+kategori = "berprogram"
+
+[[entri]]
+repo = "etro-js/etro"
+kategori = "berprogram"
+
+[[entri]]
+repo = "openvideodev/react-video-editor"
+kategori = "berprogram"
+
+[[entri]]
+repo = "mohyware/clip-js"
+kategori = "berprogram"
+
+[[entri]]
+repo = "stefanwittwer/remotion-animated"
+kategori = "berprogram"
+
+[[entri]]
+repo = "remotion-dev/template-code-hike"
+kategori = "berprogram"
+
+[[entri]]
+repo = "DojoCodingLabs/remotion-superpowers"
+kategori = "berprogram"
+
+[[entri]]
+repo = "jhartquist/claude-remotion-kickstart"
+kategori = "berprogram"
+
+[[entri]]
+repo = "iart-ai/motion-skills"
+kategori = "berprogram"
+
+[[entri]]
+repo = "iart-ai/motion-design-skills"
+kategori = "berprogram"
+
+[[entri]]
+repo = "imMamdouhaboammar/motion-graphics-skills"
+kategori = "berprogram"
+
+[[entri]]
+repo = "Leonxlnx/cinetic"
+kategori = "berprogram"
+
+[[entri]]
+repo = "AbubakrChan/product-launch-motion"
+kategori = "berprogram"
+
+[[entri]]
+repo = "Alexwtlf/agentic-product-demo"
+kategori = "berprogram"
+
+[[entri]]
+repo = "ucsandman/marketing-studio"
+kategori = "berprogram"
+
+[[entri]]
+repo = "ytrofr/claude-remotion-editor"
+kategori = "berprogram"
+
+[[entri]]
+repo = "lemomo-ai/lemo-opuscar"
+kategori = "berprogram"
+
+[[entri]]
+repo = "GTKottman/mortiflix-oss"
+kategori = "berprogram"
+
+[[entri]]
+repo = "dramaclaw/dramaclaw"
+kategori = "jana"
+
+[[entri]]
+repo = "darkzOGx/youtube-automation-agent"
+kategori = "jana"
+
+[[entri]]
+repo = "Alisa0808/vox-director"
+kategori = "jana"
+
+[[entri]]
+repo = "digitalsamba/claude-code-video-toolkit"
+kategori = "jana"
+
+[[entri]]
+repo = "rushindrasinha/youtube-shorts-pipeline"
+kategori = "jana"
+
+[[entri]]
+repo = "Agents365-ai/video-podcast-maker"
+kategori = "jana"
+
+[[entri]]
+repo = "Vincentwei1021/video-talkcraft"
+kategori = "jana"
+
+[[entri]]
+repo = "cclank/lanshu-create-ai-presenter-video"
+kategori = "jana"
+
+[[entri]]
+repo = "FelippeChemello/podcast-maker"
+kategori = "jana"
+
+[[entri]]
+repo = "receptron/mulmocast-cli"
+kategori = "jana"
+
+[[entri]]
+repo = "Blizaine/Maestro"
+kategori = "jana"
+
+[[entri]]
+repo = "aqm857886159/Nomi"
+kategori = "jana"
+
+[[entri]]
+repo = "leamsigc/ShortsGenerator"
+kategori = "jana"
+
+[[entri]]
+repo = "hassancs91/claude-faceless-shorts-creator"
+kategori = "jana"
+
+[[entri]]
+repo = "benjiyaya/Calliope"
+kategori = "jana"
+
+[[entri]]
+repo = "tsensei/OpenReels"
+kategori = "jana"
+
+[[entri]]
+repo = "Agent-Field/reels-af"
+kategori = "jana"
+
+[[entri]]
+repo = "Dark2C/Viral-Faceless-Shorts-Generator"
+kategori = "jana"
+
+[[entri]]
+repo = "gongnyang/reelforge"
+kategori = "jana"
+
+[[entri]]
+repo = "mkamranr/reelforge"
+kategori = "jana"
+
+[[entri]]
+repo = "metiutek/tube-assistant"
+kategori = "jana"
+
+[[entri]]
+repo = "jnMetaCode/openshorts"
+kategori = "jana"
+
+[[entri]]
+repo = "M3rcuryLake/Cassette"
+kategori = "jana"
+
+[[entri]]
+repo = "Statwarts/Cauldron"
+kategori = "jana"
+
+[[entri]]
+repo = "phucnguyentvp1/frameweaver"
+kategori = "jana"
+
+[[entri]]
+repo = "Hritikraj8804/Autotube"
+kategori = "jana"
+
+[[entri]]
+repo = "mikeoller82/VideoGraphAI"
+kategori = "jana"
+
+[[entri]]
+repo = "GabrielLaxy/TikTokAIVideoGenerator"
+kategori = "jana"
+
+[[entri]]
+repo = "Binary-Bytes/Auto-YouTube-Shorts-Maker"
+kategori = "jana"
+
+[[entri]]
+repo = "DuxSec/videoGenerator"
+kategori = "jana"
+
+[[entri]]
+repo = "davide97l/ai-video-generator"
+kategori = "jana"
+
+[[entri]]
+repo = "chenwr727/AI-Short-Video-Engine"
+kategori = "jana"
+
+[[entri]]
+repo = "SamuraiPolix/Shorts-Maker"
+kategori = "jana"
+
+[[entri]]
+repo = "ZC89757/story-claw"
+kategori = "jana"
+
+[[entri]]
+repo = "nishit-g/tokovo"
+kategori = "jana"
+
+[[entri]]
+repo = "YeJe-cpu/SeeCut"
+kategori = "automasi"
+
+[[entri]]
+repo = "zhouxiaoka/autoclip_mvp"
+kategori = "klip"
+
+[[entri]]
+repo = "WebAV-Tech/WebAV"
+kategori = "berprogram"
