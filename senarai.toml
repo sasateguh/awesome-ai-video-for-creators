@@ -46,6 +46,7 @@ kecuali = [
   "Azure12355/weilanx-claude-videos",
   "backblaze-labs/awesome-video-generation",
   "bilibili/carocut",
+  "blixvip/NullMotion",
   "BlommeJan/Manim-Motion",
   "bman46/InstagramEmbedDiscordBot",
   "bquenin/interpreter",
@@ -72,6 +73,7 @@ kecuali = [
   "dduongtrandai/LA-Studio",
   "DeeepMaker/subtitle-to-audio",
   "denizsafak/abogen",
+  "derek-zhuolin/motion-skill",
   "developers-cosmos/Mimasa",
   "diezo/Ensta",
   "dlazy-ai/ai-product-video",
@@ -1356,3 +1358,11 @@ kategori = "berprogram"
 [[entri]]
 repo = "alexturkey/dubworld"
 kategori = "suara"
+
+[[entri]]
+repo = "blixvip/MotionClone"
+kategori = "berprogram"
+
+[[entri]]
+repo = "blixvip/easyedit"
+kategori = "automasi"
