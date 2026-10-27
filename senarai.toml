@@ -67,6 +67,7 @@ kecuali = [
   "code-charity/youtube",
   "collidingScopes/liquid-shape-distortions",
   "corvo007/MioSub",
+  "cporter202/tiktok-instagram-scraping-apis",
   "cyberlesterr/paper-collage-video",
   "dduongtrandai/LA-Studio",
   "DeeepMaker/subtitle-to-audio",
@@ -127,6 +128,7 @@ kecuali = [
   "isaacbernat/netflix-to-srt",
   "jacklandrin/OnlySwitch",
   "jacky-xbb/faceless-video-api",
+  "jaisurya-dev-art/rigby2d",
   "jdepoix/youtube-transcript-api",
   "jianfch/stable-ts",
   "jirotubuyaki/FlowerJS",
@@ -1350,3 +1352,7 @@ kategori = "klip"
 [[entri]]
 repo = "WebAV-Tech/WebAV"
 kategori = "berprogram"
+
+[[entri]]
+repo = "alexturkey/dubworld"
+kategori = "suara"

@@ -22,7 +22,7 @@ kad = """[![Work with Sasa Teguh: book a call](https://raw.githubusercontent.com
 
 This list is maintained by [Sasa Teguh](https://sasateguh.com), a studio in Malaysia. We build websites that are found on Google and in AI answers, and we set up systems for businesses.
 
-[Book a call](https://sasateguh.com/book) · hello@sasateguh.com · [More from Sasa Teguh](https://github.com/sasateguh)"""
+hello@sasateguh.com · [More from Sasa Teguh](https://github.com/sasateguh)"""
 cara_tajuk = "How the ranking works"
 cara = """Every entry is a public GitHub repository. Each week a script reads its stars, last push and license from the GitHub API and sorts each category by
 
@@ -54,7 +54,7 @@ kad = """[![Bekerja dengan Sasa Teguh: tempah panggilan](https://raw.githubuserc
 
 Senarai ini diselenggara oleh [Sasa Teguh](https://sasateguh.com/ms), studio di Malaysia. Kami membina laman web yang ditemui di Google dan dalam jawapan AI, dan memasang sistem untuk perniagaan.
 
-[Tempah panggilan](https://sasateguh.com/ms/book) · hello@sasateguh.com · [Lagi daripada Sasa Teguh](https://github.com/sasateguh)"""
+hello@sasateguh.com · [Lagi daripada Sasa Teguh](https://github.com/sasateguh)"""
 cara_tajuk = "Cara pangkat dikira"
 cara = """Setiap entri ialah repositori GitHub awam. Setiap minggu satu skrip membaca bintang, tolakan terakhir dan lesennya daripada API GitHub, kemudian menyusun setiap kategori mengikut
 
