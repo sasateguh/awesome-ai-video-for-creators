@@ -193,6 +193,7 @@
 ## Video generation pipelines
 
 - [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) - ★ 72.2k+ · AGPL-3.0 · 2026-10 — World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.
+- [Ideoy](https://ideoy.ai) - Remake this week's viral meme videos from one selfie (AI image-to-video, 9:16, freemium).
 - [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) - ★ 13.8k+ · Apache-2.0 · 2026-10 — AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template.
 - [dramaclaw/dramaclaw](https://github.com/dramaclaw/dramaclaw) - ★ 6.4k+ · other license · 2026-10 — A general-purpose AIGC video engine: script to finished film in one pipeline — dramas, ads, product videos, otome games, and more. \| 通用 AIGC 视频引擎 —— 从剧本到成片一条流水线，漫剧、广告、电商、乙游皆可.
 - [darkzOGx/youtube-automation-agent](https://github.com/darkzOGx/youtube-automation-agent) - ★ 4.7k+ · MIT · 2026-10 — 🎬 Open-source, self-hosted AI agent that runs a YouTube channel end to end: researches topics, writes scripts, generates narration, visuals and video, optimizes SEO, and publishes after your approval, then learns from analytics. Works with Gemini, OpenAI, OpenRouter, DeepSeek and more.
