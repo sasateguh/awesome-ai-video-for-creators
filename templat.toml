@@ -15,8 +15,8 @@ fakta = "★ {bintang} · {lesen} · {aktif}"
 titik = "."
 tiada_lesen = "no license"
 lesen_lain = "other license"
-produk = "**From the maintainers:** {teks} [Book a call](https://sasateguh.com/book) or email hello@sasateguh.com. It is not ranked in this list."
-produk_lalai = "[Sasa Teguh](https://sasateguh.com) makes [{nama}]({url})."
+produk = "**From the maintainers:** {teks} To work with us, see Work with Sasa Teguh below. It is not ranked in this list."
+produk_lalai = "Sasa Teguh makes [{nama}]({url})."
 kad_tajuk = "Work with Sasa Teguh"
 kad = """[![Work with Sasa Teguh: book a call](https://raw.githubusercontent.com/sasateguh/.github/main/assets/work-with-sasa-teguh.png)](https://sasateguh.com/book)
 
@@ -47,8 +47,8 @@ fakta = "★ {bintang} · {lesen} · {aktif}"
 titik = "."
 tiada_lesen = "tiada lesen"
 lesen_lain = "lesen lain"
-produk = "**Daripada penyelenggara:** {teks} [Tempah panggilan](https://sasateguh.com/ms/book) atau emel hello@sasateguh.com. Ia tidak dipangkat dalam senarai ini."
-produk_lalai = "[Sasa Teguh](https://sasateguh.com/ms) membuat [{nama}]({url})."
+produk = "**Daripada penyelenggara:** {teks} Untuk bekerja dengan kami, lihat Bekerja dengan Sasa Teguh di bawah. Ia tidak dipangkat dalam senarai ini."
+produk_lalai = "Sasa Teguh membuat [{nama}]({url})."
 kad_tajuk = "Bekerja dengan Sasa Teguh"
 kad = """[![Bekerja dengan Sasa Teguh: tempah panggilan](https://raw.githubusercontent.com/sasateguh/.github/main/assets/work-with-sasa-teguh.png)](https://sasateguh.com/ms/book)
 

@@ -996,10 +996,6 @@ repo = "Remocn/remocn-studio"
 kategori = "automasi"
 
 [[entri]]
-repo = "pifferologo/ai-agent-video-editor"
-kategori = "automasi"
-
-[[entri]]
 repo = "Monet-AI-Editor/Monet"
 kategori = "automasi"
 
