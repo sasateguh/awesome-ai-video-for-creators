@@ -18,6 +18,7 @@ kecuali = [
   "adityayaduvanshi/awwwards-website-1",
   "agan-j/xiaoniu",
   "Agions/dramaxis",
+  "ai-boost/awesome-image-video-prompts",
   "aidayang/VideoLingo-OneClick",
   "aiiu-lab/MeDM",
   "Ajatt-Tools/mpvacious",
@@ -30,6 +31,7 @@ kecuali = [
   "alyssaxuu/motionity",
   "Andrews54757/FastStream",
   "angular-rust/ux-animate",
+  "Anil-matcha/open-genjutsu",
   "anonfaded/FadCam",
   "ansible/ansible",
   "antonio-orionus/Arroxy",
@@ -66,8 +68,10 @@ kecuali = [
   "ChenyangQiQi/FateZero",
   "chidiwilliams/buzz",
   "code-charity/youtube",
+  "CodeWithAmeer/MeerCut",
   "collidingScopes/liquid-shape-distortions",
   "corvo007/MioSub",
+  "cporter202/open-creator",
   "cporter202/tiktok-instagram-scraping-apis",
   "cyberlesterr/paper-collage-video",
   "dduongtrandai/LA-Studio",
@@ -113,6 +117,7 @@ kecuali = [
   "harry0703/MoneyPrinterTurbo",
   "hauxir/rapidbay",
   "HBAI-Ltd/Toonflow-app",
+  "HeyChengC/vibe-knowledge-film",
   "heygen-com/heygen-cli",
   "hhenrichsen/motion-canvas-commons",
   "hhenrichsen/motion-canvas-component-library-template",
@@ -163,6 +168,7 @@ kecuali = [
   "lsyncd/lsyncd",
   "lukasz-madon/awesome-remote-job",
   "m-bain/whisperX",
+  "Mars-1438/indextts2-longform-workbench",
   "matthew-asuncion/Fast-YouTube-to-MP3-Converter-API",
   "menyifang/MIMO",
   "michaelkolesidis/cherry-charm",
@@ -184,6 +190,7 @@ kecuali = [
   "navidshad/frameflow",
   "Netflix/Hystrix",
   "Netflix/ribbon",
+  "nexmoe/VidBee",
   "NGsHjodra/motion_canvas_projects",
   "NomaDamas/CozyClay",
   "nutllwhy/ai-selling-video",
@@ -226,6 +233,7 @@ kecuali = [
   "rodrigogama/awwwards-rebuilt-furrow",
   "rustdesk/rustdesk",
   "ryan-bergio03h1/Instagram-View-Booster-Free-Reel-Story-Views-Tool-2026",
+  "SamurAIGPT/revideo",
   "SamurAIGPT/Seedance-2.5-API",
   "sanusanth/c-basic-programs",
   "sasharun/awesome-faceless",
@@ -234,6 +242,7 @@ kecuali = [
   "select2/select2",
   "sergebulaev/instagram-skills",
   "sergebulaev/youtube-skills",
+  "shijue-aid/aid-studio",
   "showlab/Awesome-Video-Diffusion",
   "showlab/WorldWander",
   "shuyu-labs/BigBanana-AI-Director",
@@ -273,6 +282,7 @@ kecuali = [
   "yanirs/established-remote",
   "YaoFANGUK/video-subtitle-extractor",
   "YaoFANGUK/video-subtitle-remover",
+  "Yari-tuber/mv-director",
   "yi1108/printfilm",
   "yihui-dev/awesome-opus5-5-videos",
   "Ylianst/MeshCentral",
@@ -285,6 +295,7 @@ kecuali = [
   "zenstory-ai/drama-skills",
   "zenstory-ai/video-recap-skills",
   "zevnda/hide-youtube-shorts",
+  "zhanghao123vip/ai-manju-skills",
   "zhouxiaoka/autoclip",
   "zhuyansen/awesome-claude-video-skills",
   "zpix1/yt-anti-translate",
@@ -1362,3 +1373,43 @@ kategori = "berprogram"
 [[entri]]
 repo = "blixvip/easyedit"
 kategori = "automasi"
+
+[[entri]]
+repo = "wj-sidiss/otopilot"
+kategori = "jana"
+
+[[entri]]
+repo = "artemnovitckii/claude-animation-skills"
+kategori = "berprogram"
+
+[[entri]]
+repo = "haiderfarooq3/paper-reel"
+kategori = "berprogram"
+
+[[entri]]
+repo = "notivn/AIEVv2"
+kategori = "automasi"
+
+[[entri]]
+repo = "heristop/leclap"
+kategori = "berprogram"
+
+[[entri]]
+repo = "ww-w-ai/super-video-agent"
+kategori = "berprogram"
+
+[[entri]]
+repo = "anpc849/real-time-video-subs"
+kategori = "suara"
+
+[[entri]]
+repo = "hormuz-labs/agentshot"
+kategori = "automasi"
+
+[[entri]]
+repo = "PriyeshPandey2000/ai-video-clipper"
+kategori = "klip"
+
+[[entri]]
+repo = "siri2moon/moonreel"
+kategori = "jana"
