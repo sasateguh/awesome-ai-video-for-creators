@@ -32,6 +32,7 @@
 - [jason-jm/wavesubs](https://github.com/jason-jm/wavesubs) - ★ 30+ · MIT · 2026-09 — Can't find subtitles? Generate SRT/ASS subtitles from any video with local AI and auto-translate them — no internet, free. macOS & Windows.
 - [nicolaigaina/ai-video-captions](https://github.com/nicolaigaina/ai-video-captions) - ★ 70 · MIT · 2026-03 — Free, open-source AI video caption generator. Add trending animated subtitles to any video — 6 styles (Hormozi, MrBeast, Karaoke), word-level animation, 100+ languages. Powered by Whisper + FFmpeg. Self-hosted with Docker.
 
+- **[Barz Studio](https://barzvideo.com/?utm_source=sasateguh-awesome-ai-video-for-creators&utm_medium=directory&utm_campaign=backlinks)** - Free browser editor for beat-reactive rap lyric videos (bring your own track).
 ## Clipping and shorts
 
 - [modelscope/FunClip](https://github.com/modelscope/FunClip) - ★ 6.4k+ · MIT · 2026-11 — FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI.
@@ -248,6 +249,7 @@
 - [Hritikraj8804/Autotube](https://github.com/Hritikraj8804/Autotube) - ★ 80+ · MIT · 2025-12 — 🤖 Automated YouTube Shorts creation using n8n, AI script generation, and video processing. Full pipeline from topic to published video with AI images, TTS, transitions, and effects. Docker-based, self-hosted, and free to use.
 - [Auto-Vio/autovio](https://github.com/Auto-Vio/autovio) - ★ 30+ · other license · 2026-04 — Open-source AI video pipeline. Text prompt → scenario → images → video clips → editor → MP4. Self-hosted, multi-provider, MCP-ready.
 
+- **[Cyanvid](https://cyanvid.com/?utm_source=sasateguh-awesome-ai-video-for-creators&utm_medium=directory&utm_campaign=backlinks)** - AI video generator: create from text or images with clear credit quotes up front.
 ## How the ranking works
 
 Every entry is a public GitHub repository. Each week a script reads its stars, last push and license from the GitHub API and sorts each category by
