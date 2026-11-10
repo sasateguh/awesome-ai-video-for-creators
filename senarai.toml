@@ -22,6 +22,7 @@ kecuali = [
   "aidayang/VideoLingo-OneClick",
   "aiiu-lab/MeDM",
   "Ajatt-Tools/mpvacious",
+  "Akillll-DuoHe/fy-code-animation",
   "alecm20/story-flicks",
   "alecs5am/ralphy",
   "ali-vilab/VACE",
@@ -44,6 +45,7 @@ kecuali = [
   "astrogab42/XwbAudioReplacer",
   "athemeroy/awesome-claude-5-5-videos",
   "ausaki/subfinder",
+  "AutocratMinaret/valorant-ai-clip-editor",
   "Avnsh1111/Instagram-Reels-Scraper-Auto-Poster",
   "Azure12355/weilanx-claude-videos",
   "backblaze-labs/awesome-video-generation",
@@ -62,6 +64,7 @@ kecuali = [
   "CCExtractor/ccextractor",
   "cclank/lanshu-awesome-ai-video-kit",
   "cdown/srt",
+  "ChatCut-Inc/agent-plugin",
   "chengyi-ai/native-subtitle-quote-image",
   "ChenHsing/Awesome-Video-Diffusion-Models",
   "ChenShuo2004/cs-board",
@@ -75,6 +78,7 @@ kecuali = [
   "cporter202/tiktok-instagram-scraping-apis",
   "cyberlesterr/paper-collage-video",
   "dduongtrandai/LA-Studio",
+  "dean9703111/auto-edit-workspace",
   "DeeepMaker/subtitle-to-audio",
   "denizsafak/abogen",
   "derek-zhuolin/motion-skill",
@@ -84,6 +88,7 @@ kecuali = [
   "Doubiiu/MotionCanvas",
   "DualSubs/Universal",
   "duongxthanh/facebook-reels-downloader",
+  "Ebony-Vinyl/EAC-design-world",
   "emericg/OpenSubtitlesDownload",
   "engineerapart/TheRemoteFreelancer",
   "erduo1998-cell/erduo-broll-loop-engineering",
@@ -118,6 +123,7 @@ kecuali = [
   "hauxir/rapidbay",
   "HBAI-Ltd/Toonflow-app",
   "HeyChengC/vibe-knowledge-film",
+  "HeyChengC/wallstreet-explainer",
   "heygen-com/heygen-cli",
   "hhenrichsen/motion-canvas-commons",
   "hhenrichsen/motion-canvas-component-library-template",
@@ -146,13 +152,17 @@ kecuali = [
   "JollyToday/GhostCut_Remake_Video",
   "jpillora/cloud-torrent",
   "jub0t/Concat",
+  "JuneYaooo/capsule-cinema",
   "JuneYaooo/cheap-claude-video",
+  "JuneYaooo/rea-video",
   "juntaosun/ComeCut",
   "Just-Moh-it/Mockoops",
   "kaganin/iwrzwr-visual-archive",
   "kaomei/hand-drawn-video-prompts",
   "karma9874/AndroRAT",
   "kartikeyvaish/expo-instagram-reels",
+  "keremss7/lingolay",
+  "KevinB2212/wifi-radar",
   "KishanViramgama/InstagramDownloader",
   "KlingAIResearch/LivePortrait",
   "koesan/Evoars",
@@ -174,6 +184,7 @@ kecuali = [
   "michaelkolesidis/cherry-charm",
   "microsoft/garnet",
   "mifi/lossless-cut",
+  "Minireel/HGhub",
   "mockoon/mockoon",
   "motion-canvas-community/awesome-motion-canvas",
   "motion-canvas/examples",
@@ -201,6 +212,7 @@ kecuali = [
   "opc8838-hub/font-animation",
   "openai/whisper",
   "openclaw/Peekaboo",
+  "OpenMontageInc/OpenMontage",
   "OpenMOSS/MOSS-Transcribe-Diarize",
   "OpenShot/libopenshot",
   "OpenShot/openshot-qt",
@@ -258,6 +270,7 @@ kecuali = [
   "Tencent-Hunyuan/HunyuanCustom",
   "thephpleague/flysystem",
   "thiagobergami/yt-shoorts-automation",
+  "thunderifang/rpocket-team-tube-assistant",
   "Translate-It-App/Translate-It",
   "trustfuture/simon-skills",
   "UditAkhourii/cdaf",
@@ -274,6 +287,7 @@ kecuali = [
   "westvictorfall/flowframes-lab",
   "WhiteTowerAI/ohmygame",
   "wladradchenko/wunjo.wladradchenko.ru",
+  "wquguru/cicada",
   "xiesx123/CreatorBox",
   "xixihhhh/ai-short-drama-skill",
   "xixihhhh/clipforge",
@@ -1413,3 +1427,75 @@ kategori = "klip"
 [[entri]]
 repo = "siri2moon/moonreel"
 kategori = "jana"
+
+[[entri]]
+repo = "edenfunf/reelmimic"
+kategori = "jana"
+
+[[entri]]
+repo = "shinyobjectz/raea"
+kategori = "berprogram"
+
+[[entri]]
+repo = "HaD0Yun/CozyClay"
+kategori = "jana"
+
+[[entri]]
+repo = "Vibha-Ramprakash/claude-video-effects"
+kategori = "automasi"
+
+[[entri]]
+repo = "Cuongyd196/remotion-cuongit-template"
+kategori = "berprogram"
+
+[[entri]]
+repo = "ersinkoc/AI-Video-Factory"
+kategori = "jana"
+
+[[entri]]
+repo = "howznguyen/shorts-kit"
+kategori = "berprogram"
+
+[[entri]]
+repo = "getcurate/reel-studio"
+kategori = "automasi"
+
+[[entri]]
+repo = "omergocmen/ai-video-edit-workflow"
+kategori = "automasi"
+
+[[entri]]
+repo = "frankShan001/CutVoke"
+kategori = "automasi"
+
+[[entri]]
+repo = "mika-f/Celesta"
+kategori = "berprogram"
+
+[[entri]]
+repo = "kiselas/every-frame-is-code"
+kategori = "berprogram"
+
+[[entri]]
+repo = "nuzkyapp/nuzky"
+kategori = "automasi"
+
+[[entri]]
+repo = "kadirb4rut/voxadub"
+kategori = "suara"
+
+[[entri]]
+repo = "akshinmrv/Voxa"
+kategori = "suara"
+
+[[entri]]
+repo = "blazejkustra/uncut"
+kategori = "automasi"
+
+[[entri]]
+repo = "estebanstifli/OpenDub"
+kategori = "suara"
+
+[[entri]]
+repo = "kirat11X/video--clipper-vizard-AI-replica-automatic-short-form-clip-generator-"
+kategori = "klip"
