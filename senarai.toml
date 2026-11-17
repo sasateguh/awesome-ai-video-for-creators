@@ -53,7 +53,9 @@ kecuali = [
   "blixvip/NullMotion",
   "BlommeJan/Manim-Motion",
   "bman46/InstagramEmbedDiscordBot",
+  "Bomx/OpenVideo",
   "bquenin/interpreter",
+  "brave-plum-co/leonardo-ai-desktop",
   "BretHudson/animation-practice",
   "BTawaifi/Audio-DeSilencer",
   "bugbakery/audapolis",
@@ -199,6 +201,7 @@ kecuali = [
   "naveen-annam/creativly.ai-brand-video-remotion",
   "navidseyedain/ALAD",
   "navidshad/frameflow",
+  "neavo/LinguaGacha",
   "Netflix/Hystrix",
   "Netflix/ribbon",
   "nexmoe/VidBee",
@@ -224,6 +227,7 @@ kecuali = [
   "pgrimaud/instagram-user-feed",
   "Picsart-AI-Research/Text2Video-Zero",
   "plemeri/transparent-background",
+  "pluja/anysub",
   "podman-container-tools/skopeo",
   "psviderski/unregistry",
   "ptjaworski/igplus-extension",
@@ -297,6 +301,7 @@ kecuali = [
   "YaoFANGUK/video-subtitle-extractor",
   "YaoFANGUK/video-subtitle-remover",
   "Yari-tuber/mv-director",
+  "yashoncode/meetube",
   "yi1108/printfilm",
   "yihui-dev/awesome-opus5-5-videos",
   "Ylianst/MeshCentral",
@@ -1453,6 +1458,10 @@ repo = "ersinkoc/AI-Video-Factory"
 kategori = "jana"
 
 [[entri]]
+repo = "GTAI-1/flow-mcp"
+kategori = "jana"
+
+[[entri]]
 repo = "howznguyen/shorts-kit"
 kategori = "berprogram"
 
@@ -1477,6 +1486,18 @@ repo = "kiselas/every-frame-is-code"
 kategori = "berprogram"
 
 [[entri]]
+repo = "nexu-io/openmotion"
+kategori = "berprogram"
+
+[[entri]]
+repo = "0xS4N4TG/papercut-explainer"
+kategori = "berprogram"
+
+[[entri]]
+repo = "alisadiq-ai/favstash-ai-video-editing-skills"
+kategori = "berprogram"
+
+[[entri]]
 repo = "nuzkyapp/nuzky"
 kategori = "automasi"
 
@@ -1497,5 +1518,45 @@ repo = "estebanstifli/OpenDub"
 kategori = "suara"
 
 [[entri]]
+repo = "tarpetos/mimvox"
+kategori = "suara"
+
+[[entri]]
 repo = "kirat11X/video--clipper-vizard-AI-replica-automatic-short-form-clip-generator-"
 kategori = "klip"
+
+[[entri]]
+repo = "AbdullahNaveed/ai-shorts-generator"
+kategori = "jana"
+
+[[entri]]
+repo = "givemotion/givemotion"
+kategori = "berprogram"
+
+[[entri]]
+repo = "GrepCut/OpenClipper"
+kategori = "klip"
+
+[[entri]]
+repo = "hajdu-patrik/clippy"
+kategori = "klip"
+
+[[entri]]
+repo = "huiq777/fifi-video"
+kategori = "berprogram"
+
+[[entri]]
+repo = "PansaLegrand/dojo-video-agent"
+kategori = "automasi"
+
+[[entri]]
+repo = "social-media-skills/remotion-shorts-skill"
+kategori = "berprogram"
+
+[[entri]]
+repo = "vawe-hq/vawe"
+kategori = "berprogram"
+
+[[entri]]
+repo = "zeative/motion-educator"
+kategori = "berprogram"
