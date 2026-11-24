@@ -41,6 +41,7 @@ kecuali = [
   "Appllama/25-unique-loaders",
   "Arabianaischool/AI-Video-Gen-by-ARABIAN-AI-SCHOOL",
   "Arduino-IRremote/Arduino-IRremote",
+  "Arroxy/Arroxy",
   "Astroa7m/Reels",
   "astrogab42/XwbAudioReplacer",
   "athemeroy/awesome-claude-5-5-videos",
@@ -91,6 +92,7 @@ kecuali = [
   "DualSubs/Universal",
   "duongxthanh/facebook-reels-downloader",
   "Ebony-Vinyl/EAC-design-world",
+  "Ehopatoo/capcut-pro-banorin-video-editor",
   "emericg/OpenSubtitlesDownload",
   "engineerapart/TheRemoteFreelancer",
   "erduo1998-cell/erduo-broll-loop-engineering",
@@ -137,6 +139,7 @@ kecuali = [
   "hypit-ai/hypit",
   "idosal/git-mcp",
   "IliasHad/edit-mind",
+  "IliasHad/orcah-studio",
   "ilya-makarov-dev/Reframe",
   "immense/Remotely",
   "irinabuht12-oss/google-ads-meta-ads-mcp",
@@ -145,6 +148,7 @@ kecuali = [
   "jacky-xbb/faceless-video-api",
   "jaisurya-dev-art/rigby2d",
   "jdepoix/youtube-transcript-api",
+  "JGRFW/comfyui-AICG3D",
   "jianfch/stable-ts",
   "jirotubuyaki/FlowerJS",
   "jnMetaCode/ai-shortfilm-prompts",
@@ -172,9 +176,12 @@ kecuali = [
   "kunkundi/crossdesk",
   "laoma528/awesome-zhuiju-free",
   "LearnPrompt/awesome-seedance",
+  "LejejaFen94/ai-subtitle-gen",
   "Leonxlnx/motion-recreation",
   "lettier/gifcurry",
   "libass/libass",
+  "liuhaisi2026212-maker/motion-palette-15",
+  "liuzhao1225/YouDub-Desktop",
   "liyue-aigc/seedance-2-5-video-director",
   "liyupi/ai-promo-video-maker",
   "lsyncd/lsyncd",
@@ -188,12 +195,14 @@ kecuali = [
   "mifi/lossless-cut",
   "Minireel/HGhub",
   "mockoon/mockoon",
+  "mografy/mografy",
   "motion-canvas-community/awesome-motion-canvas",
   "motion-canvas/examples",
   "motion-canvas/exporters",
   "motion-canvas/motion-canvas.github.io",
   "mozilla/sccache",
   "Mr-Comand/youtube-shorts-remover-tampermonkey",
+  "mraddy-arch/tube-assistant",
   "mRemoteNG/mRemoteNG",
   "NanmiCoder/cc-haha",
   "NarratorAI-Studio/narrator-ai-cli",
@@ -267,6 +276,7 @@ kecuali = [
   "sorsama/wabcut",
   "square/PonyDebugger",
   "stablyai/orca",
+  "STARDUSTLC666/dsh-remotion",
   "storytold/filmcraft",
   "sveinbjornt/hear",
   "taisly/agent",
@@ -280,6 +290,7 @@ kecuali = [
   "UditAkhourii/cdaf",
   "Upload-Post/avatar-mix",
   "v-modal/vmodal_sdk_flutter",
+  "velorcolllections/capcut-pro-jafalor-video-editor",
   "VishwaiOSDev/Loadify-iOS",
   "vizance/codex-talking-head-video-editor",
   "Vulpelo/hide-youtube-shorts",
@@ -1560,3 +1571,75 @@ kategori = "berprogram"
 [[entri]]
 repo = "zeative/motion-educator"
 kategori = "berprogram"
+
+[[entri]]
+repo = "heygen-com/hyperframes"
+kategori = "berprogram"
+
+[[entri]]
+repo = "Orkas-AI/Orkas-VideoStudio"
+kategori = "berprogram"
+
+[[entri]]
+repo = "codepawl/creator-generalist"
+kategori = "berprogram"
+
+[[entri]]
+repo = "hehehai/AudioSmith"
+kategori = "suara"
+
+[[entri]]
+repo = "beyondtahir/beyondgtaclips"
+kategori = "klip"
+
+[[entri]]
+repo = "ColinGPT9/Grand-Theft-Auto-6-Clips-Kitty-Plugin"
+kategori = "klip"
+
+[[entri]]
+repo = "Hainrixz/video-editor-architect"
+kategori = "automasi"
+
+[[entri]]
+repo = "Viprasol-Tech/claude-video-editing-skills"
+kategori = "automasi"
+
+[[entri]]
+repo = "MakeMyClip/editor"
+kategori = "automasi"
+
+[[entri]]
+repo = "Vibha-Ramprakash/claude-caption-styles"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "Win-Hao/code-video"
+kategori = "berprogram"
+
+[[entri]]
+repo = "Anil-matcha/AI-B-roll"
+kategori = "automasi"
+
+[[entri]]
+repo = "FernandoAbishai/ScriptCut"
+kategori = "automasi"
+
+[[entri]]
+repo = "Mas-inx/lumen-ai-video-editor"
+kategori = "automasi"
+
+[[entri]]
+repo = "neutral-Stage/remotion-captioneer"
+kategori = "sari-kata"
+
+[[entri]]
+repo = "Robelob/Ambar-AI-Video-Editor-Plugin-For-Premiere-Pro"
+kategori = "automasi"
+
+[[entri]]
+repo = "samolubukun/NovaClip"
+kategori = "klip"
+
+[[entri]]
+repo = "thealiraza2/CapShorts"
+kategori = "sari-kata"

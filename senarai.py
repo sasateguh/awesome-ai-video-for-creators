@@ -56,9 +56,13 @@ MuatLaman = Callable[[str], tuple[int, dict, str]]
 
 
 class RalatSenarai(Exception):
-    def __init__(self, mesej: str, kod: int | None = None):
+    """`luar` = GitHub/rangkaian gagal (jaga: token/sementara/sumber, rc 3 — D152), bukan config/pepijat."""
+
+    def __init__(self, mesej: str, kod: int | None = None, sementara: bool | None = None, luar: bool | None = None):
         super().__init__(mesej)
         self.kod = kod
+        self.sementara = sementara if sementara is not None else kod in SEMENTARA
+        self.luar = luar if luar is not None else kod is not None
 
 
 # ── semakan skema (luar talian) ──────────────────────────────────────────────────
@@ -257,29 +261,85 @@ class Entri:
     skor: float = 0.0
 
 
+# D152 (24 Nov 2026): kurasi 89 carian tanpa jeda → HTTP 403 had carian (30/min bertoken, dikongsi cron lain) → larian tumbang.
+# Rujukan GitHub "Rate limits for the REST API": primer = `x-ratelimit-remaining: 0` → tunggu `x-ratelimit-reset`; sekunder =
+# `retry-after`, atau ≥ 1 minit. Nilai dari `config/gilap.toml [had_github]` (`tetapan_had`); lalai di sini hanya sandaran.
+LALAI_JEDA_CARIAN_S = 2.1   # 60 / 2.1 ≈ 28.6 carian seminit < 30
+LALAI_HAD_TUNGGU_S = 65.0
+
+
+def tetapan_had(cfg: dict) -> dict:
+    """Kwarg had kadar `pembuat_ambil_json` dari config gilap (`[had_github]`)."""
+    c = cfg.get("had_github") or {}
+    return {"jeda_carian": float(c.get("jeda_carian_s", LALAI_JEDA_CARIAN_S)),
+            "had_tunggu": float(c.get("had_tunggu_s", LALAI_HAD_TUNGGU_S))}
+
+
+def tunggu_had(kod: int, pengepala, badan: str, kini: float, had: float) -> float | None:
+    """Saat menunggu bila respons ialah had kadar GitHub (dihad `had`); None = bukan had kadar (403 biasa naik serta-merta)."""
+    if kod not in (403, 429) or pengepala is None:
+        return None
+    ra = (pengepala.get("retry-after") or "").strip()
+    if ra.isdigit():
+        return min(float(ra), had)
+    if (pengepala.get("x-ratelimit-remaining") or "").strip() == "0":
+        try:
+            return min(max(float(pengepala.get("x-ratelimit-reset")) - kini + 1, 1.0), had)
+        except (TypeError, ValueError):
+            return had
+    return had if "rate limit" in (badan or "").lower() else None
+
+
+def _pembuat_jeda(jeda: float, jam: Callable[[], float], tidur: Callable[[float], None]) -> Callable[[], None]:
+    """Panggil SEBELUM setiap carian: tidur baki `jeda` sejak carian lepas (carian pertama tidak menunggu)."""
+    akhir: list[float] = []
+
+    def tunggu() -> None:
+        if akhir and jeda > 0 and (baki := jeda - (jam() - akhir[0])) > 0:
+            tidur(baki)
+        akhir[:] = [jam()]
+    return tunggu
+
+
 def pembuat_ambil_json(token: str | None, timeout: float = 30, cuba: int = 3, rehat: float = 3.0,
-                       tidur=time.sleep) -> AmbilJson:
-    """GET JSON dari API GitHub; gangguan (D18/D29) dicuba semula; 404 = RalatSenarai kod 404 serta-merta."""
+                       tidur=time.sleep, jam=time.time, jeda_carian: float = LALAI_JEDA_CARIAN_S,
+                       had_tunggu: float = LALAI_HAD_TUNGGU_S) -> AmbilJson:
+    """GET JSON dari API GitHub; gangguan (D18/D29) dicuba semula; 404 = RalatSenarai kod 404 serta-merta. D152: had kadar
+    (403/429 bertanda) = tunggu ≤ `had_tunggu` lalu cuba semula; carian dijarakkan `jeda_carian` (config `[had_github]`)."""
     h = {"User-Agent": "gilap-senarai", "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
     if token:
         h["Authorization"] = f"Bearer {token}"
+    jarak = _pembuat_jeda(jeda_carian, jam, tidur)
 
     def sekali(url: str) -> object:
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=timeout) as resp:
                 return json.load(resp)
         except urllib.error.HTTPError as e:
-            raise RalatSenarai(f"HTTP {e.code} {url}", kod=e.code) from e
+            try:
+                badan = e.read().decode("utf-8", "replace")
+            except (OSError, AttributeError, ValueError):
+                badan = ""
+            x = RalatSenarai(f"HTTP {e.code} {url}", kod=e.code)
+            x.tunggu = tunggu_had(e.code, e.headers, badan, jam(), had_tunggu)
+            x.sementara = x.sementara or x.tunggu is not None
+            raise x from e
         except (json.JSONDecodeError, *RALAT_RANGKAIAN) as e:
-            raise RalatSenarai(f"{type(e).__name__}: {getattr(e, 'reason', e)} {url}") from e
+            raise RalatSenarai(f"{type(e).__name__}: {getattr(e, 'reason', e)} {url}", sementara=True, luar=True) from e
 
     def ambil(url: str) -> object:
         for i in range(cuba):
+            if "/search/" in url:
+                jarak()
             try:
                 return sekali(url)
             except RalatSenarai as e:
-                if e.kod not in SEMENTARA | {None} or i == cuba - 1:
+                tunggu = getattr(e, "tunggu", None)
+                if (tunggu is None and e.kod not in SEMENTARA | {None}) or i == cuba - 1:
                     raise
+                if tunggu is not None:
+                    tidur(tunggu)
+                    continue
             tidur(rehat)
         raise AssertionError("tidak tercapai")
 
